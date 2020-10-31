@@ -54,3 +54,9 @@ cipher=AES.new(key,AES.MODE_CBC,iv)
 plain_data=cipher.decrypt(base64.b64decode(flag))
 print plain_data
 ```
+0x03 FlagValiddator
+这题讲道理没啥好说的，几个比较都很简单，唯一要注意就是能黑盒就黑盒
+包括那个jni函数，同样不要再跟进去了，当然要研究算法，还是得进去看看
+，但是只注重结果，就没必要太注重过程了，我也跟进去看了下过程，然而
+也没啥东西，实际上也没什么东西，其他就本地复现一波，直接调用一波就好
+了
