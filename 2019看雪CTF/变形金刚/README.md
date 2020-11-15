@@ -60,4 +60,4 @@ rc4decrypt(base64decode())
 6. 总结
 
 
-开发才是正道，其次jni是先执行init_array的，ctrl+s就可以选择init_array
+开发才是正道，其次jni是先执行init_array的，ctrl+s就可以选择init_array,发现调用了一个函数，原来是把表给修改了，这里幸亏我是动调弄的，所以没有受到影响，静态的话就掉坑里了。
