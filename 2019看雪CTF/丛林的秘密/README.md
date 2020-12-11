@@ -138,3 +138,9 @@ static main()
 ```
 发现其实就是一个html文件，里面还加载了wasm，真正判断函数是wasm中的函数，这里的操作就是将wasm源码先转成c，然后再gcc编译成o文件，ida打开，发现是一个32元一次的方程和异或，
 我这里卡在生成wasm文件，winhex操作了一波，出错，待解决，问下大佬
+
+# 参考链接:
+- https://bbs.pediy.com/thread-252227.htm
+- https://www.anquanke.com/post/id/179556
+- https://www.w3ctech.com/topic/2014
+- https://bbs.pediy.com/thread-252126.htm
